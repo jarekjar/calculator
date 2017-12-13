@@ -1,0 +1,95 @@
+body {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+#calculator {
+  width: 360px;
+	height: auto;
+	
+	margin: 100px auto;
+  margin-top: 15px;
+	padding: 20px 20px 20px;
+	
+	background: #D1C5C2;
+	border-radius: 15px;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+#calculator:hover{
+  cursor: pointer;
+}
+
+.keys {
+  overflow: hidden;
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+.keys span:hover{
+  background-color: black;
+  color: white;
+}
+
+.keys span:active{
+  background-color: black;
+  color: white;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.keys span {
+  float: left;
+  width: 70px;
+  height: 70px;
+  background-color: grey;
+  padding: 18px;
+  margin: 5px;
+  text-align:center;
+  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+span.operator, span.eval {
+  background: #607989;
+}
+
+p {
+  padding: 0px;
+  margin: -12px;
+  font-size: 13px;
+  position: relative;
+  bottom: -18px;
+  right: -220px;
+  width: auto;
+	height: auto; 
+  font-style: italic;
+}
+
+#curr {
+  bottom: -10px; 
+  text-align: right;
+  right: 20px;
+  background: none;
+}
+
+span.clear {
+  background: #BB7777;
+}
+
+.input {
+  float: left;
+  float: left;
+  width: 230px;
+  height: 70px;
+  background: white;
+  padding: 20px;
+  margin: 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  text-align: right;
+}
